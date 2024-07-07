@@ -1,80 +1,142 @@
-
 .open-sans-normal {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
+
 /* Shared Style */
+.secondary-bg {
+    background-color: #FFF8F3;
+}
+
 .orange {
     color: #FD6E0A;
 }
+
 .dark-2 {
     color: #474747;
 }
+
 .dark-1 {
     color: #181818;
 }
+
 .dark-3 {
     color: #757575;
 }
-.btn-primary{
-   background-color:#FD6E0A;
-   font-weight: bold;
-   color: white;
-   padding:18px 35px;
-   border: none;
-   border-radius: 5px;
+
+.btn-primary {
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
 }
+
+.section-title {
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.section-description {
+    font-size: 16px;
+    font-weight: normal;
+
+}
+
 .header {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
+
 /* Nav Styles */
-nav {
-display: flex;
-align-items: center;
-justify-content: space-between;
-margin: 50px 200px;
-}
 .nav-title {
     font-weight: 800;
     font-size: 45px;
 }
-nav ul{
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
     display: flex;
     align-items: center;
 }
+
 nav ul li {
     list-style: none;
-    margin-right: 20px ;
+    margin-right: 20px;
 }
+
 nav li a {
     text-decoration: none;
     font-size: 17px;
     color: #474747;
 }
+
 /* banner styles */
+
+
 .banner {
     display: flex;
     justify-content: space-between;
     margin: 0 20px 0 200px;
 }
+
 .banner-content {
     max-width: 550px;
 
 }
-.banner-greetings{
+
+.banner-greetings {
     font-weight: 600;
     font-size: 43px;
 }
+
 .banner-title {
     font-weight: bold;
     font-size: 85px;
 }
+
+.banner-profile-pic {
+    width: 570px;
+}
+
 .banner-description {
-    font-weight:normal;
-    font-size: 18px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+/* main styles */
+.main {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+.item-description {
+font-weight: 600;
+
 }
