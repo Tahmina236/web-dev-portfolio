@@ -39,12 +39,16 @@
 .section-title {
     font-size: 33px;
     font-weight: bold;
+    /* padding: 30px; */
+    /* margin-bottom: 30px; */
+    padding-top: 30px;
+
 }
 
 .section-description {
     font-size: 13px;
     font-weight: normal;
-    padding: 5px 10px 25px 10px;
+    padding: 5px 10px 5px 10px;
 
 }
 .text-center {
